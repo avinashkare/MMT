@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="11709" started-at="2023-03-07T20:37:24 IST" finished-at="2023-03-07T20:37:36 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="11709" started-at="2023-03-07T20:37:24 IST" finished-at="2023-03-07T20:37:36 IST">
+      <class name="testScripts.HotelsFunctionalityTest">
+        <test-method status="PASS" signature="startApplication(java.lang.String,java.lang.String)[pri:0, instance:testScripts.HotelsFunctionalityTest@4a87761d]" name="startApplication" is-config="true" duration-ms="6830" started-at="2023-03-07T20:37:24 IST" finished-at="2023-03-07T20:37:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.makemytrip.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApplication -->
+        <test-method status="PASS" signature="verifyDifferentHotelsBookingOption()[pri:0, instance:testScripts.HotelsFunctionalityTest@4a87761d]" name="verifyDifferentHotelsBookingOption" duration-ms="829" started-at="2023-03-07T20:37:31 IST" finished-at="2023-03-07T20:37:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDifferentHotelsBookingOption -->
+        <test-method status="PASS" signature="quiteBrowser()[pri:0, instance:testScripts.HotelsFunctionalityTest@4a87761d]" name="quiteBrowser" is-config="true" duration-ms="4010" started-at="2023-03-07T20:37:32 IST" finished-at="2023-03-07T20:37:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteBrowser -->
+      </class> <!-- testScripts.HotelsFunctionalityTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
